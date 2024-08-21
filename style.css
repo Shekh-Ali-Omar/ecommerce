@@ -1,0 +1,309 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    position: relative;
+    font-family: Kumbh Sans;
+    height: 100vh;
+}
+button{
+    cursor: pointer;
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+}
+#p78{
+    font-weight: 700;
+    color: hsl(26, 100%, 55%);
+    padding-bottom: 20px;
+}
+.but{
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    background-color: rgb(172, 172, 172);
+}
+nav p{
+    font-weight: 400;
+    font-size: 16px;
+    color: gray;
+}
+.boox{
+    display: flex;
+    gap: 40px;
+}
+.allhead p:hover{
+    color: #000;
+    border-bottom: 3px solid hsl(26, 100%, 55%);
+}
+.ava{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 50px;
+}
+.allhead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+}
+.allhead #logo{
+    height: 20px;
+    width: 138px;
+}
+nav{
+    height: auto;
+    width: auto;
+    margin: 0px;
+}
+#avatar{
+    height: 50px;
+    width: 50px;
+}
+.ook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    height: 500px;
+    padding-left: 60px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.uil{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+#but1{
+    font-family: Kumbh Sans;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: hsl(26, 100%, 55%);
+    border-radius: 7px;
+    padding: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border: none;
+    color: white;
+}
+#but1:hover{
+    background-color: hsla(26, 100%, 55%, 0.61);
+    transition: 0.2s;
+}
+.but button{
+    border: none;
+    background-color: white;
+    display: flex;
+}
+.but{
+    padding-top: 25px;
+    display: flex;
+    gap: 40px;
+}
+.pol{
+    height: auto;
+    display: flex;
+    align-items: center;
+    background-color: hsla(26, 100%, 55%, 0.342);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+    color: hsl(26, 100%, 55%);
+    font-weight: 700;
+}
+#big_img{
+    height: 500px;
+    width: auto;
+    border-radius: 20px;
+}
+#big_im{
+    height: 500px;
+    width: auto;
+    border-radius: 20px;
+}
+.smal_img{
+    display: flex;
+    gap: 30px;
+    height: auto;
+    width: auto;
+}
+.smal_img img{
+    height: auto;
+    width: 100px;
+    border-radius: 15px;
+}
+.hide {
+    display: none;
+    top: 100px;
+    right: 150px;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: -1px 1px 12px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 1px 12px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 1px 12px 1px rgba(0,0,0,0.75);  
+  }
+  .hide h3{
+    padding: 10px;
+  }
+  .hide p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18vh;
+  }
+.small_img img{
+    height: auto;
+    width: 100px;
+    border-radius: 15px;
+}
+.small_img{
+    display: flex;
+    gap: 30px;
+    height: auto;
+    width: auto;
+    
+}
+#yui{
+    border: none;
+    background-color: #ffffff00;
+}
+.small_img button{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+.smal_img button{
+    padding-top: 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+.small_img button:hover{
+    cursor: pointer;
+}
+.smal_img button:hover{
+    cursor: pointer;
+}
+#avatar:hover{
+    border: 1px solid hsl(26, 100%, 55%);
+    border-radius: 50%;
+    transition: 0.5s;
+}
+#po {
+    cursor: pointer;
+}
+#ni{
+    cursor: pointer;
+}
+#kil{
+    padding-top: 30px;
+}
+.butt{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.images{
+    margin-top: 205px;  
+    height: 620px;
+    width: 500px;
+}
+#poga{
+    font-size: 20px;
+}
+.fares{
+    position: relative;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 50px;
+}
+.d15{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    height: 100vh;
+    height: 100%;
+    width: 100%;
+    background-color: #0000007c;
+    top: 0px;
+    bottom: 0px;
+}
+.imagek{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+.pll{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 500px;
+}
+.pll button{
+    border: none;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+#re{
+    display: flex;
+    flex-direction: reverse;
+}
+.d15{
+    display: none;
+}
+#f{
+    border: none;
+    background-color: #00000000;
+}
+.hh{
+    display: flex;
+    justify-content: end;
+    width: 500px;
+    padding-bottom: 3px;
+}
+.texthi{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 155px;
+}
+.imghi img{
+    height: 100px;
+    width: 100px;
+}
+#ppo{
+    display: none;
+    height: 155px;
+}
+.texthi p{
+    height: auto;
+}
+.pri{
+    display: flex;
+    justify-content: start;
+}
+.num{
+    display: flex;
+}

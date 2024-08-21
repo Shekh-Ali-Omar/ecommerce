@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kumbh+Sans:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="fares">
+    <nav>
+      <div class="allhead">
+        <div class="boox">
+          <a href=""><img id="logo" src="images/logo.svg" alt=""></a>
+          <a href="">
+            <p>Collections</p>
+          </a>
+          <a href="">
+            <p>Men</p>
+          </a>
+          <a href="woman.html">
+            <p>Women</p>
+          </a>
+          <a href="">
+            <p>About</p>
+          </a>
+          <a href="">
+            <p>Contact</p>
+          </a>
+        </div>
+        <div class="ava">
+          <a href=""><img id="avatar" src="images/image-avatar.png" alt=""></a>
+          <div class="myDIV"><div class="infos"><p id="info"></p></div><img style="cursor: pointer;" onclick="cartr()" id="s18" src="images/icon-cart.svg" alt=""></div>
+          <div class="hide"v id="cartt">
+            <h3>Cart</h3>
+            <hr>
+            <div class="bod">
+              <p id="empty">Your cart is empty.</p>
+              <button id="omar" style="display: none;" onclick="myFunction()">Remove</button>
+              <div id="ppo">
+                <div class="imghi">
+                  <img src="images/image-product-1-thumbnail.jpg" alt="">
+                </div>
+                <div class="texthi">
+                  <p id="what">Fall Limited Edition Sneakers</p>
+                  <div class="num">
+                    <p id="pri"></p>
+                    <h4 id="resl"></h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="ook">
+      <div class="images">
+        <button id="yui" onclick="toggleDisplay()"><img id="big_img" src="images/image-product-1.jpg" alt=""></button>
+        <div class="small_img">
+          <button onclick="image1()"><img src="images/image-product-1-thumbnail.jpg" alt=""></button>
+          <button onclick="image2()"><img src="images/image-product-2-thumbnail.jpg" alt=""></button>
+          <button onclick="image3()"><img src="images/image-product-3-thumbnail.jpg" alt=""></button>
+          <button onclick="image4()"><img src="images/image-product-4-thumbnail.jpg" alt=""></button>
+        </div>
+      </div>
+      <div class="text">
+        <p id="p78">Sneaker Company</p>
+        <h1 id="nam" style="font-size: 40px;">Fall Limited Edition Sneakers</h1>
+        <p id="kil">These low-profile sneakers are your perfect casual wear companion. Featuring a
+          durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+        <div class="uil">
+          <p id="price" style="font-size: 30px; font-weight: 700;">$125.00</p>
+          <div class="pol">50%</div>
+        </div>
+        <p style="color: gray;"><s>$250.00</s></p>
+        <div class="but">
+          <div class="butt">
+            <button onclick="posi()"><img src="images/icon-plus.svg" alt=""></button>
+            <p id="poga">0</p>
+            <button onclick="nig()"><img src="images/icon-minus.svg" alt=""></button>
+          </div>
+          <button id="but1" onclick="cart()"><img src="images/new-cart.svg" alt="">Add to cart</button>
+        </div>
+      </div>
+  </div>
+  <div id="d14" class="d15">
+    <div class="hh">
+      <button id="f" onclick="toggleDispla()"><img src="images/icon-close.svg" alt=""></button>
+    </div>
+    <div class="pll">
+      <button id="re"><img src="images/icon-previous.svg" alt=""></button>
+      <button id="pl"><img src="images/icon-next.svg" alt=""></button>
+    </div>
+    <button id="yui" onclick="changeColor('black')"><img id="big_im" src="images/image-product-1.jpg" alt=""></button>
+    <div class="smal_img">
+      <button id="img_1" onclick="ima()"><img src="images/image-product-1-thumbnail.jpg" alt=""></button>
+      <button id="img_2" onclick="image8()"><img src="images/image-product-2-thumbnail.jpg" alt=""></button>
+      <button id="img_3" onclick="image7()"><img src="images/image-product-3-thumbnail.jpg" alt=""></button>
+      <button id="img_4" onclick="image5()"><img src="images/image-product-4-thumbnail.jpg" alt=""></button>
+    </div>
+  </div>
+  </div>
+  </section>
+
+</body>
+<script src="config.js"></script>
+
+</html>
